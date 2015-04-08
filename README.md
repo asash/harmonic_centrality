@@ -1,7 +1,11 @@
 This is "harmonic" centrality metric realisation for networkx library. 
 
-It uses HyperLogLog algorithm and much more faster than standart algorithm from networkx
+It uses HyperLogLog algorithm and much more faster than standart algorithm from networkx.
 
+---
+Harmonic centrality is calculated as ![formula](http://upload.wikimedia.org/math/b/b/0/bb039f0850211e3f763c648178cb30b4.png).
+
+Harmonic centrality is often better than classic centrality algorithms(PageRank, Katz, Closeness, Betweenness). See this: https://events.yandex.ru/lib/talks/1287/ video for details
 
 example usage:
 ```python
