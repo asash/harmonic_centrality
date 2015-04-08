@@ -13,4 +13,4 @@ def harmonic_centrality(G, max_distance=6):
             for next_node in networkx.all_neighbors(G, node):
                 t_steps_set[node][distance].merge(t_steps_set[next_node][distance - 1])
             harmonic[node] += (t_steps_set[node][distance].cardinality() - t_steps_set[node][distance - 1].cardinality())/distance
-    return harmonic
+    return dict(harmonic)
