@@ -1,4 +1,4 @@
-This is "harmonic" centrality metric realisation for networkx library. 
+This is "harmonic" centrality metric realization for networkx library. 
 
 It uses HyperLogLog algorithm and much more faster than standart algorithm from networkx.
 
