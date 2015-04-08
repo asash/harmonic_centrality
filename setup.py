@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='harmonic_centrality',
-      version='0.1',
+      version='0.2',
        description='Harmonic Centrality metric realization for networkx',
        author='Alexander Petrov',
        author_email='firexel@gmail.com',
