@@ -7,6 +7,12 @@ Harmonic centrality is calculated as ![formula](http://upload.wikimedia.org/math
 
 Harmonic centrality is often better than classic centrality algorithms(PageRank, Katz, Closeness, Betweenness). See this: https://events.yandex.ru/lib/talks/1287/ video for details
 
+---
+installing:
+```
+pip install git+https://github.com/asash/harmonic_centrality.git
+```
+
 example usage:
 ```python
 
