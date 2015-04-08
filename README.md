@@ -1,6 +1,8 @@
 This is "harmonic" centrality metric realisation for networkx library. 
 
 It uses HyperLogLog algorithms and much more faster than standart algorithm from networkx
+
+
 example usage:
 ```python
 
@@ -15,4 +17,12 @@ harmonic = harmonic_centrality(G)
 
 for node in harmonic:
     print node, harmonic[node]
+```
+
+output:
+```
+1 4.33868071575
+2 3.61485913805
+3 3.61485913805
+4 2.89174614742
 ```
