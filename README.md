@@ -1,6 +1,6 @@
 This is "harmonic" centrality metric implementation for networkx library. 
 
-It uses HyperLogLog algorithm and much more faster than standard algorithm from networkx.
+It uses HyperLogLog algorithm and much more faster than the standard algorithm from networkx.
 
 ---
 Harmonic centrality is calculated as ![formula](http://upload.wikimedia.org/math/b/b/0/bb039f0850211e3f763c648178cb30b4.png).
